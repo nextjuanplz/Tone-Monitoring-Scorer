@@ -1,0 +1,452 @@
+************INITIALIZING************
+Opening directory: C:\Users\juanm\Dropbox\School\University of Central Florida\Clubs & Labs\TRG\Driving\Tone Monitoring Task\Testing
+
+Reading directory file [1]: 2017-07-25 18.41.48.csv
+	Found a .csv file!
+	File skipped: experiment did not finish normally.
+
+
+Reading directory file [2]: 2017-07-25 19.15.32.csv
+	Found a .csv file!
+	File skipped: experiment did not finish normally.
+
+
+Reading directory file [3]: 2017-11-6 18.48.52.csv
+	Found a .csv file!
+	File skipped: experiment did not finish normally.
+
+
+Reading directory file [4]: 2017-11-9 18.39.33.csv
+	Found a .csv file!
+	File skipped: experiment did not finish normally.
+
+
+Reading directory file [5]: drive-download-20180220t013959z-001.zip
+	File skipped: file is not a .csv.
+
+
+Reading directory file [6]: januarydata.zip
+	File skipped: file is not a .csv.
+
+
+Reading directory file [7]: psymrt_3005_20180122_2017.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 6] [Correct Rejections: 76] [False Alarms: 17]
+		[Sensitivity: 0.07692307692307693] [FalseErrorRate: 0.1827956989247312]
+		[Accuracy: 0.7676767676767676] [d': -0.5213147029280663] [RT: 1071.2727272727273]
+	Success! [22 ms]
+
+
+Reading directory file [8]: psymrt_3005_distr_20180122_2032.csv
+	Found a .csv file!
+	Error: File was corrupted at line 34.
+
+
+Reading directory file [9]: psymrt_3006_20180122_1843.csv
+	Found a .csv file!
+		[Hits: 1] [Misses: 8] [Correct Rejections: 78] [False Alarms: 12]
+		[Sensitivity: 0.1111111111111111] [FalseErrorRate: 0.13333333333333333]
+		[Accuracy: 0.797979797979798] [d': -0.10986873507499695] [RT: 1509.2631578947369]
+	Success! [12 ms]
+
+
+Reading directory file [10]: psymrt_3006_distr_usethisone_20180122_1904.csv
+	Found a .csv file!
+	Error: File was corrupted at line 38.
+
+
+Reading directory file [11]: psymrt_3007_distr_20180123_1133.csv
+	Found a .csv file!
+	Error: File was corrupted at line 63.
+
+
+Reading directory file [12]: psymrt_3007_non_20180123_1102.csv
+	Found a .csv file!
+	Error: File was corrupted at line 67.
+
+
+Reading directory file [13]: psymrt_3008_non_20180123_0949.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 4] [Correct Rejections: 74] [False Alarms: 21]
+		[Sensitivity: 0.1111111111111111] [FalseErrorRate: 0.22105263157894736]
+		[Accuracy: 0.7474747474747475] [d': -0.4519973397254944] [RT: 1192.32]
+	Success! [11 ms]
+
+
+Reading directory file [14]: psymrt_3009_distr_20180123_1402.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 4] [Correct Rejections: 71] [False Alarms: 24]
+		[Sensitivity: 0.1111111111111111] [FalseErrorRate: 0.25263157894736843]
+		[Accuracy: 0.7171717171717171] [d': -0.5544088780879974] [RT: 1295.9615384615386]
+	Success! [6 ms]
+
+
+Reading directory file [15]: psymrt_3009_non_20180123_1341.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 0] [Correct Rejections: 66] [False Alarms: 33]
+		[Sensitivity: 0.0] [FalseErrorRate: 0.3333333333333333]
+		[Accuracy: 0.6666666666666666] [d': NaN] [RT: 1316.3939393939395]
+	Success! [9 ms]
+
+
+Reading directory file [16]: psymrt_3010_distr_20180123_1317.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 7] [Correct Rejections: 78] [False Alarms: 14]
+		[Sensitivity: 0.06666666666666667] [FalseErrorRate: 0.15217391304347827]
+		[Accuracy: 0.7878787878787878] [d': -0.4739316776394844] [RT: 1882.6470588235295]
+	Success! [7 ms]
+
+
+Reading directory file [17]: psymrt_3010_non_20180123_1248.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 7] [Correct Rejections: 74] [False Alarms: 18]
+		[Sensitivity: 0.06666666666666667] [FalseErrorRate: 0.1956521739130435]
+		[Accuracy: 0.7474747474747475] [d': -0.6438316255807877] [RT: 1518.2272727272727]
+	Success! [6 ms]
+
+
+Reading directory file [18]: psymrt_3011_dist_20180123_1605.csv
+	Found a .csv file!
+	Error: File was corrupted at line 59.
+
+
+Reading directory file [19]: psymrt_3011_non_20180123_1545.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 12] [Correct Rejections: 86] [False Alarms: 1]
+		[Sensitivity: 0.04] [FalseErrorRate: 0.011494252873563218]
+		[Accuracy: 0.8686868686868687] [d': 0.5229395478963852] [RT: 1435.0833333333333]
+	Success! [10 ms]
+
+
+Reading directory file [20]: psymrt_3012_distr_20180123_1728.csv
+	Found a .csv file!
+	Error: File was corrupted at line 35.
+
+
+Reading directory file [21]: psymrt_3012_non_20180123_1710.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 6] [Correct Rejections: 76] [False Alarms: 17]
+		[Sensitivity: 0.07692307692307693] [FalseErrorRate: 0.1827956989247312]
+		[Accuracy: 0.7676767676767676] [d': -0.5213147029280663] [RT: 1341.2173913043478]
+	Success! [5 ms]
+
+
+Reading directory file [22]: psymrt_3013_distr_20180124_1207.csv
+	Found a .csv file!
+	Error: File was corrupted at line 18.
+
+
+Reading directory file [23]: psymrt_3013_non_20180124_1139.csv
+	Found a .csv file!
+	Error: File was corrupted at line 25.
+
+
+Reading directory file [24]: psymrt_3014_distr_20180124_1027.csv
+	Found a .csv file!
+	Error: File was corrupted at line 82.
+
+
+Reading directory file [25]: psymrt_3014_non_20180124_0950.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 4] [Correct Rejections: 77] [False Alarms: 18]
+		[Sensitivity: 0.1111111111111111] [FalseErrorRate: 0.18947368421052632]
+		[Accuracy: 0.7777777777777778] [d': -0.3408028930425644] [RT: 1534.1904761904761]
+	Success! [4 ms]
+
+
+Reading directory file [26]: psymrt_3015_distr_20180124_1426.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 6] [Correct Rejections: 79] [False Alarms: 14]
+		[Sensitivity: 0.07692307692307693] [FalseErrorRate: 0.15053763440860216]
+		[Accuracy: 0.797979797979798] [d': -0.39194660633802414] [RT: 1554.4666666666667]
+	Success! [5 ms]
+
+
+Reading directory file [27]: psymrt_3015_distr_usethisone_20180124_1508.csv
+	Found a .csv file!
+		[Hits: 1] [Misses: 4] [Correct Rejections: 78] [False Alarms: 16]
+		[Sensitivity: 0.2] [FalseErrorRate: 0.1702127659574468]
+		[Accuracy: 0.797979797979798] [d': 0.11170356720685959] [RT: 1494.35]
+	Success! [6 ms]
+
+
+Reading directory file [28]: psymrt_3015_non_20180124_1232.csv
+	Found a .csv file!
+		[Hits: 1] [Misses: 9] [Correct Rejections: 81] [False Alarms: 8]
+		[Sensitivity: 0.1] [FalseErrorRate: 0.0898876404494382]
+		[Accuracy: 0.8282828282828283] [d': 0.059895701706409454] [RT: 1463.857142857143]
+	Success! [3 ms]
+
+
+Reading directory file [29]: psymrt_3017_distr_20180124_1710.csv
+	Found a .csv file!
+	Error: File was corrupted at line 34.
+
+
+Reading directory file [30]: psymrt_3017_non_20180124_1656.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 10] [Correct Rejections: 80] [False Alarms: 9]
+		[Sensitivity: 0.047619047619047616] [FalseErrorRate: 0.10112359550561797]
+		[Accuracy: 0.8080808080808081] [d': -0.3932158648967743] [RT: 1033.0]
+	Success! [4 ms]
+
+
+Reading directory file [31]: psymrt_3018_distr_20180124_1607.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 5] [Correct Rejections: 73] [False Alarms: 21]
+		[Sensitivity: 0.09090909090909091] [FalseErrorRate: 0.22340425531914893]
+		[Accuracy: 0.7373737373737373] [d': -0.5744312629103661] [RT: 1641.375]
+	Success! [4 ms]
+
+
+Reading directory file [32]: psymrt_3018_non_20180124_1543.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 4] [Correct Rejections: 79] [False Alarms: 16]
+		[Sensitivity: 0.1111111111111111] [FalseErrorRate: 0.16842105263157894]
+		[Accuracy: 0.797979797979798] [d': -0.2602168321609497] [RT: 1661.0]
+	Success! [10 ms]
+
+
+Reading directory file [33]: psymrt_3019_distr_20180124_2011.csv
+	Found a .csv file!
+		[Hits: 1] [Misses: 4] [Correct Rejections: 79] [False Alarms: 15]
+		[Sensitivity: 0.2] [FalseErrorRate: 0.1595744680851064]
+		[Accuracy: 0.8080808080808081] [d': 0.15458709001541138] [RT: 1580.1]
+	Success! [10 ms]
+
+
+Reading directory file [34]: psymrt_3019_non_20180124_1954.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 11] [Correct Rejections: 82] [False Alarms: 6]
+		[Sensitivity: 0.043478260869565216] [FalseErrorRate: 0.06818181818181818]
+		[Accuracy: 0.8282828282828283] [d': -0.2222052589058876] [RT: 1225.8]
+	Success! [4 ms]
+
+
+Reading directory file [35]: psymrt_3020_non_20180125_1702.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 4] [Correct Rejections: 78] [False Alarms: 17]
+		[Sensitivity: 0.1111111111111111] [FalseErrorRate: 0.17894736842105263]
+		[Accuracy: 0.7878787878787878] [d': -0.30125631392002106] [RT: 1479.6666666666667]
+	Success! [8 ms]
+
+
+Reading directory file [36]: psymrt_3020_non_20180125_1731.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 4] [Correct Rejections: 75] [False Alarms: 20]
+		[Sensitivity: 0.1111111111111111] [FalseErrorRate: 0.21052631578947367]
+		[Accuracy: 0.7575757575757576] [d': -0.4160439670085907] [RT: 1539.8636363636363]
+	Success! [8 ms]
+
+
+Reading directory file [37]: psymrt_3021_driving_20180125_1611.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 13] [Correct Rejections: 83] [False Alarms: 3]
+		[Sensitivity: 0.037037037037037035] [FalseErrorRate: 0.03488372093023256]
+		[Accuracy: 0.8383838383838383] [d': 0.027262002229690552] [RT: 1516.5384615384614]
+	Success! [8 ms]
+
+
+Reading directory file [38]: psymrt_3022_distr_20180127_1730.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 6] [Correct Rejections: 77] [False Alarms: 16]
+		[Sensitivity: 0.07692307692307693] [FalseErrorRate: 0.17204301075268819]
+		[Accuracy: 0.7777777777777778] [d': -0.47995419800281525] [RT: 1633.1666666666667]
+	Success! [8 ms]
+
+
+Reading directory file [39]: psymrt_3022_non_20180127_1656.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 5] [Correct Rejections: 73] [False Alarms: 21]
+		[Sensitivity: 0.09090909090909091] [FalseErrorRate: 0.22340425531914893]
+		[Accuracy: 0.7373737373737373] [d': -0.5744312629103661] [RT: 1726.96]
+	Success! [13 ms]
+
+
+Reading directory file [40]: psymrt_3023_distr_20180127_1556.csv
+	Found a .csv file!
+	Error: File was corrupted at line 56.
+
+
+Reading directory file [41]: psymrt_3023_non_20180127_1538.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 7] [Correct Rejections: 83] [False Alarms: 9]
+		[Sensitivity: 0.06666666666666667] [FalseErrorRate: 0.09782608695652174]
+		[Accuracy: 0.8383838383838383] [d': -0.20704759657382965] [RT: 1397.375]
+	Success! [3 ms]
+
+
+Reading directory file [42]: psymrt_3024_distr_20180130_1142.csv
+	Found a .csv file!
+	Error: File was corrupted at line 72.
+
+
+Reading directory file [43]: psymrt_3024_non_20180130_1112.csv
+	Found a .csv file!
+	Error: File was corrupted at line 47.
+
+
+Reading directory file [44]: psymrt_3025_distr_20180130_1009.csv
+	Found a .csv file!
+		[Hits: 1] [Misses: 4] [Correct Rejections: 76] [False Alarms: 18]
+		[Sensitivity: 0.2] [FalseErrorRate: 0.19148936170212766]
+		[Accuracy: 0.7777777777777778] [d': 0.03079981356859207] [RT: 1444.4545454545455]
+	Success! [4 ms]
+
+
+Reading directory file [45]: psymrt_3025_non_20180130_0948.csv
+	Found a .csv file!
+		[Hits: 1] [Misses: 4] [Correct Rejections: 76] [False Alarms: 18]
+		[Sensitivity: 0.2] [FalseErrorRate: 0.19148936170212766]
+		[Accuracy: 0.7777777777777778] [d': 0.03079981356859207] [RT: 1387.695652173913]
+	Success! [10 ms]
+
+
+Reading directory file [46]: psymrt_3026_non_20180130_1657.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 11] [Correct Rejections: 84] [False Alarms: 4]
+		[Sensitivity: 0.043478260869565216] [FalseErrorRate: 0.045454545454545456]
+		[Accuracy: 0.8484848484848485] [d': -0.021053671836853027] [RT: 1471.357142857143]
+	Success! [4 ms]
+
+
+Reading directory file [47]: psymrt_3026_tone_20180130_1721.csv
+	Found a .csv file!
+	Error: File was corrupted at line 45.
+
+
+Reading directory file [48]: psymrt_3027_distr_20180130_1554.csv
+	Found a .csv file!
+	Error: File was corrupted at line 48.
+
+
+Reading directory file [49]: psymrt_3027_non_20180130_1526.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 5] [Correct Rejections: 73] [False Alarms: 21]
+		[Sensitivity: 0.09090909090909091] [FalseErrorRate: 0.22340425531914893]
+		[Accuracy: 0.7373737373737373] [d': -0.5744312629103661] [RT: 1254.1923076923076]
+	Success! [4 ms]
+
+
+Reading directory file [50]: psymrt_3029_distr_20180131_1010.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 8] [Correct Rejections: 79] [False Alarms: 12]
+		[Sensitivity: 0.058823529411764705] [FalseErrorRate: 0.13186813186813187]
+		[Accuracy: 0.797979797979798] [d': -0.4471227154135704] [RT: 1366.125]
+	Success! [11 ms]
+
+
+Reading directory file [51]: psymrt_3029_non_20180131_0954.csv
+	Found a .csv file!
+		[Hits: 0] [Misses: 10] [Correct Rejections: 75] [False Alarms: 14]
+		[Sensitivity: 0.047619047619047616] [FalseErrorRate: 0.15730337078651685]
+		[Accuracy: 0.7575757575757576] [d': -0.6627885326743126] [RT: 1475.2608695652175]
+	Success! [10 ms]
+
+
+Reading directory file [52]: sample.xlsx
+	File skipped: file is not a .csv.
+
+
+Reading directory file [53]: tonemonitoringscorer [1.0].jar
+	File skipped: file is not a .csv.
+
+
+Reading directory file [54]: tonemonitoringscorer [1.1].jar
+	File skipped: file is not a .csv.
+
+
+Reading directory file [55]: tonemonitoringscorer [1.2].jar
+	File skipped: file is not a .csv.
+
+
+Reading directory file [56]: tonemonitoringscorer [1.3].jar
+	File skipped: file is not a .csv.
+
+
+Reading directory file [57]: tonemonitoringscorer [2.0].jar
+	File skipped: file is not a .csv.
+
+
+Reading directory file [58]: tonemonitoringscorer [2.1].jar
+	File skipped: file is not a .csv.
+
+
+Reading directory file [59]: [log] 2018-02-19 23-51.log
+	File skipped: file is not a .csv.
+
+
+Reading directory file [60]: [output] 2018-02-19 23-51.csv
+	Found a .csv file!
+	File skipped: file is probably not a raw data file.
+
+
+Note: the following files were not processed:
+2017-07-25 18.41.48.csv
+2017-07-25 19.15.32.csv
+2017-11-6 18.48.52.csv
+2017-11-9 18.39.33.csv
+drive-download-20180220t013959z-001.zip
+januarydata.zip
+psymrt_3005_distr_20180122_2032.csv
+psymrt_3006_distr_usethisone_20180122_1904.csv
+psymrt_3007_distr_20180123_1133.csv
+psymrt_3007_non_20180123_1102.csv
+psymrt_3011_dist_20180123_1605.csv
+psymrt_3012_distr_20180123_1728.csv
+psymrt_3013_distr_20180124_1207.csv
+psymrt_3013_non_20180124_1139.csv
+psymrt_3014_distr_20180124_1027.csv
+psymrt_3017_distr_20180124_1710.csv
+psymrt_3023_distr_20180127_1556.csv
+psymrt_3024_distr_20180130_1142.csv
+psymrt_3024_non_20180130_1112.csv
+psymrt_3026_tone_20180130_1721.csv
+psymrt_3027_distr_20180130_1554.csv
+sample.xlsx
+tonemonitoringscorer [1.0].jar
+tonemonitoringscorer [1.1].jar
+tonemonitoringscorer [1.2].jar
+tonemonitoringscorer [1.3].jar
+tonemonitoringscorer [2.0].jar
+tonemonitoringscorer [2.1].jar
+[log] 2018-02-19 23-51.log
+[output] 2018-02-19 23-51.csv
+
+
+****PREPARING OUTPUT FILE****
+File,Participant,Hits,Misses,CorrectRejections,FalseAlarms,Sensitivity,FalseErrorRate,d',%Accuracy,Average RT
+psymrt_3005_20180122_2017.csv,3005,0,6,76,17,0.07692307692307693,0.1827956989247312,-0.5213147029280663,0.7676767676767676,1071.2727272727273
+psymrt_3006_20180122_1843.csv,3006,1,8,78,12,0.1111111111111111,0.13333333333333333,-0.10986873507499695,0.797979797979798,1509.2631578947369
+psymrt_3008_non_20180123_0949.csv,3008_non,0,4,74,21,0.1111111111111111,0.22105263157894736,-0.4519973397254944,0.7474747474747475,1192.32
+psymrt_3009_distr_20180123_1402.csv,3009_distr,0,4,71,24,0.1111111111111111,0.25263157894736843,-0.5544088780879974,0.7171717171717171,1295.9615384615386
+psymrt_3009_non_20180123_1341.csv,3009_non,0,0,66,33,0.0,0.3333333333333333,NaN,0.6666666666666666,1316.3939393939395
+psymrt_3010_distr_20180123_1317.csv,3010_distr,0,7,78,14,0.06666666666666667,0.15217391304347827,-0.4739316776394844,0.7878787878787878,1882.6470588235295
+psymrt_3010_non_20180123_1248.csv,3010_non,0,7,74,18,0.06666666666666667,0.1956521739130435,-0.6438316255807877,0.7474747474747475,1518.2272727272727
+psymrt_3011_non_20180123_1545.csv,3011_non,0,12,86,1,0.04,0.011494252873563218,0.5229395478963852,0.8686868686868687,1435.0833333333333
+psymrt_3012_non_20180123_1710.csv,3012_non,0,6,76,17,0.07692307692307693,0.1827956989247312,-0.5213147029280663,0.7676767676767676,1341.2173913043478
+psymrt_3014_non_20180124_0950.csv,3014_non,0,4,77,18,0.1111111111111111,0.18947368421052632,-0.3408028930425644,0.7777777777777778,1534.1904761904761
+psymrt_3015_distr_20180124_1426.csv,3015_distr,0,6,79,14,0.07692307692307693,0.15053763440860216,-0.39194660633802414,0.797979797979798,1554.4666666666667
+psymrt_3015_distr_usethisone_20180124_1508.csv,3015_distr_usethisone,1,4,78,16,0.2,0.1702127659574468,0.11170356720685959,0.797979797979798,1494.35
+psymrt_3015_non_20180124_1232.csv,3015_non,1,9,81,8,0.1,0.0898876404494382,0.059895701706409454,0.8282828282828283,1463.857142857143
+psymrt_3017_non_20180124_1656.csv,3017_non,0,10,80,9,0.047619047619047616,0.10112359550561797,-0.3932158648967743,0.8080808080808081,1033.0
+psymrt_3018_distr_20180124_1607.csv,3018_distr,0,5,73,21,0.09090909090909091,0.22340425531914893,-0.5744312629103661,0.7373737373737373,1641.375
+psymrt_3018_non_20180124_1543.csv,3018_non,0,4,79,16,0.1111111111111111,0.16842105263157894,-0.2602168321609497,0.797979797979798,1661.0
+psymrt_3019_distr_20180124_2011.csv,3019_distr,1,4,79,15,0.2,0.1595744680851064,0.15458709001541138,0.8080808080808081,1580.1
+psymrt_3019_non_20180124_1954.csv,3019_non,0,11,82,6,0.043478260869565216,0.06818181818181818,-0.2222052589058876,0.8282828282828283,1225.8
+psymrt_3020_non_20180125_1702.csv,3020_NON,0,4,78,17,0.1111111111111111,0.17894736842105263,-0.30125631392002106,0.7878787878787878,1479.6666666666667
+psymrt_3020_non_20180125_1731.csv,3020_NON,0,4,75,20,0.1111111111111111,0.21052631578947367,-0.4160439670085907,0.7575757575757576,1539.8636363636363
+psymrt_3021_driving_20180125_1611.csv,3021_driving,0,13,83,3,0.037037037037037035,0.03488372093023256,0.027262002229690552,0.8383838383838383,1516.5384615384614
+psymrt_3022_distr_20180127_1730.csv,3022_distr,0,6,77,16,0.07692307692307693,0.17204301075268819,-0.47995419800281525,0.7777777777777778,1633.1666666666667
+psymrt_3022_non_20180127_1656.csv,3022_non,0,5,73,21,0.09090909090909091,0.22340425531914893,-0.5744312629103661,0.7373737373737373,1726.96
+psymrt_3023_non_20180127_1538.csv,3023_non,0,7,83,9,0.06666666666666667,0.09782608695652174,-0.20704759657382965,0.8383838383838383,1397.375
+psymrt_3025_distr_20180130_1009.csv,3025_distr,1,4,76,18,0.2,0.19148936170212766,0.03079981356859207,0.7777777777777778,1444.4545454545455
+psymrt_3025_non_20180130_0948.csv,3025_non,1,4,76,18,0.2,0.19148936170212766,0.03079981356859207,0.7777777777777778,1387.695652173913
+psymrt_3026_non_20180130_1657.csv,3026_non,0,11,84,4,0.043478260869565216,0.045454545454545456,-0.021053671836853027,0.8484848484848485,1471.357142857143
+psymrt_3027_non_20180130_1526.csv,3027_non,0,5,73,21,0.09090909090909091,0.22340425531914893,-0.5744312629103661,0.7373737373737373,1254.1923076923076
+psymrt_3029_distr_20180131_1010.csv,3029_distr,0,8,79,12,0.058823529411764705,0.13186813186813187,-0.4471227154135704,0.797979797979798,1366.125
+psymrt_3029_non_20180131_0954.csv,3029_non,0,10,75,14,0.047619047619047616,0.15730337078651685,-0.6627885326743126,0.7575757575757576,1475.2608695652175
+
+
+****PREPARING LOG FILE [Time elapsed: 582 ms]****
+Done!

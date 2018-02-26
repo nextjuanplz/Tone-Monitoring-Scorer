@@ -1,0 +1,118 @@
+Subject Name:,3017_distr
+Number of trials:,99
+Experiment Duration:,0:04:57
+Inter-Trial Interval:(sec),3
+Music:, None
+Device Volume:,16
+Tone 1:(hz) Enabled,300
+Tone 2:(hz) Enabled,800
+Tone 3:(hz) Enabled,1200
+Sequence:,Random Equal Number
+Tone Duration:(sec),0.5
+Tone Volume:,10
+
+
+*Experiment Finished Normally
+
+Trial Number,Reaction Time(ms),Tone Played,Response
+1,no response,2,NA
+2,no response,1,NA
+3,no response,2,NA
+4,1490,2,3
+5,no response,1,NA
+6,no response,1,NA
+7,no response,3,NA
+8,no response,1,NA
+9,230,3,1
+10,no response,3,NA
+11,no response,1,NA
+12,no response,3,NA
+13,763,2,3
+14,no response,2,NA
+15,no response,3,NA
+16,1179,2,1
+17,-1246,NA,2
+,no response,3,NA
+18,no response,3,NA
+19,no response,3,NA
+20,995,1,1
+21,no response,2,NA
+22,no response,2,NA
+23,no response,3,NA
+24,1037,3,3
+25,no response,1,NA
+26,no response,3,NA
+27,no response,3,NA
+28,886,2,2
+29,no response,2,NA
+30,no response,3,NA
+31,no response,3,NA
+32,2618,1,1
+33,no response,1,NA
+34,no response,2,NA
+35,no response,2,NA
+36,1183,1,1
+37,no response,3,NA
+38,no response,2,NA
+39,no response,3,NA
+40,1249,3,3
+41,no response,2,NA
+42,no response,2,NA
+43,no response,1,NA
+44,955,1,1
+45,no response,2,NA
+46,no response,3,NA
+47,1017,3,3
+48,no response,2,NA
+49,no response,3,NA
+50,no response,3,NA
+51,1210,2,2
+52,no response,2,NA
+53,no response,1,NA
+54,no response,1,NA
+55,1332,1,1
+56,no response,2,NA
+57,no response,2,NA
+58,no response,1,NA
+59,1217,3,3
+60,no response,2,NA
+61,no response,3,NA
+62,no response,1,NA
+63,1257,2,2
+64,no response,1,NA
+65,no response,2,NA
+66,no response,2,NA
+67,1054,1,1
+68,no response,1,NA
+69,no response,1,NA
+70,no response,1,NA
+71,2596,2,2
+72,no response,2,NA
+73,no response,3,NA
+74,no response,1,NA
+75,987,3,3
+76,no response,3,NA
+77,no response,1,NA
+78,no response,3,NA
+79,1613,3,3
+80,no response,1,NA
+81,no response,3,NA
+82,no response,2,NA
+83,1010,1,1
+84,no response,1,NA
+85,no response,3,NA
+86,no response,3,NA
+87,1591,2,2
+88,-1099,NA,2
+,no response,3,NA
+89,no response,2,NA
+90,no response,1,NA
+91,1494,1,1
+92,no response,1,NA
+93,no response,3,NA
+94,no response,1,NA
+95,2656,2,2
+96,no response,2,NA
+97,no response,1,NA
+98,no response,2,NA
+99,1625,1,1

@@ -1,0 +1,117 @@
+Subject Name:,3007_distr
+Number of trials:,99
+Experiment Duration:,0:04:57
+Inter-Trial Interval:(sec),3
+Music:, None
+Device Volume:,16
+Tone 1:(hz) Enabled,300
+Tone 2:(hz) Enabled,800
+Tone 3:(hz) Enabled,1200
+Sequence:,Random Equal Number
+Tone Duration:(sec),0.5
+Tone Volume:,10
+
+
+*Experiment Finished Normally
+
+Trial Number,Reaction Time(ms),Tone Played,Response
+1,no response,2,NA
+2,no response,3,NA
+3,no response,2,NA
+4,no response,3,NA
+5,no response,1,NA
+6,no response,1,NA
+7,no response,2,NA
+8,no response,1,NA
+9,1695,2,1
+10,no response,3,NA
+11,no response,1,NA
+12,no response,1,NA
+13,no response,1,NA
+14,2861,3,1
+15,1777,3,3
+16,no response,2,NA
+17,no response,1,NA
+18,no response,3,NA
+19,no response,3,NA
+20,no response,3,NA
+21,no response,1,NA
+22,730,3,2
+23,no response,3,NA
+24,no response,1,NA
+25,1581,1,2
+26,538,3,1
+27,no response,3,NA
+28,no response,2,NA
+29,no response,2,NA
+30,no response,2,NA
+31,no response,3,NA
+32,no response,1,NA
+33,no response,2,NA
+34,1182,1,2
+35,no response,2,NA
+36,no response,2,NA
+37,no response,1,NA
+38,no response,1,NA
+39,no response,3,NA
+40,no response,1,NA
+41,no response,2,NA
+42,no response,3,NA
+43,no response,3,NA
+44,no response,1,NA
+45,1197,1,1
+46,-760,NA,3
+,no response,1,NA
+47,no response,3,NA
+48,no response,3,NA
+49,no response,3,NA
+50,no response,1,NA
+51,no response,1,NA
+52,no response,2,NA
+53,no response,1,NA
+54,no response,2,NA
+55,no response,2,NA
+56,no response,3,NA
+57,no response,1,NA
+58,no response,3,NA
+59,no response,1,NA
+60,no response,1,NA
+61,246,2,2
+62,no response,2,NA
+63,no response,1,NA
+64,no response,3,NA
+65,no response,3,NA
+66,no response,1,NA
+67,no response,3,NA
+68,no response,1,NA
+69,no response,1,NA
+70,no response,1,NA
+71,no response,2,NA
+72,no response,1,NA
+73,no response,3,NA
+74,no response,3,NA
+75,no response,3,NA
+76,no response,2,NA
+77,no response,1,NA
+78,133,2,2
+79,no response,2,NA
+80,no response,3,NA
+81,no response,2,NA
+82,no response,1,NA
+83,no response,2,NA
+84,no response,1,NA
+85,no response,3,NA
+86,no response,3,NA
+87,no response,2,NA
+88,no response,2,NA
+89,no response,2,NA
+90,no response,3,NA
+91,no response,2,NA
+92,no response,2,NA
+93,no response,2,NA
+94,1163,2,2
+95,no response,2,NA
+96,no response,3,NA
+97,no response,3,NA
+98,no response,2,NA
+99,1144,2,2
