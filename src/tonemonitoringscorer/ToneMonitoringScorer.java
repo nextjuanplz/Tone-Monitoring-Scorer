@@ -27,10 +27,11 @@ import javax.swing.JOptionPane;
 
 public class ToneMonitoringScorer {
 	//Toggles
-	private static final Boolean LOGGING = true;
-        private static final Boolean MANUAL_LOGGING = true;
-	private static final Boolean EXCLUDE_INVALID = true;
-        private final static Boolean HEADER_ON = true;
+	private static final Boolean LOGGING = true;            //Log and create output
+        private static final Boolean MANUAL_LOGGING = true;     //Log things manually
+	private static final Boolean EXCLUDE_INVALID = true;    //Exclude files where experiment did not end normally
+        private static final Boolean REMOVE_NEGATIVE_RT = false; //Exclude files with RT < 0
+        private final static Boolean HEADER_ON = true;          //Print header
 
 	//Constants
         private static final String HEADER = "File,Participant,Hits,Misses,CorrectRejections,FalseAlarms,Sensitivity,FalseErrorRate,d',%Accuracy,Average RT";     //Output file header
@@ -58,19 +59,20 @@ public class ToneMonitoringScorer {
 	private static String participantNumber;		//Participant number
 
 	//Messages
-	private static final String[] ERRORS = {"Error reading file: ",
-                                                "File skipped: experiment did not finish normally.",
-                                                "Failed to produce output file.",
-                                                "Failed to log properly.",
-                                                "File skipped: file is not a .csv.",
-                                                "File skipped: number of lines is too long! [",
-                                                "Error: File was corrupted at line ",
-                                                "Error: There is already a",
-                                                "Coding terminated unexpectedly.",
-                                                "File skipped: file is probably not a raw data file."};
+	private static final String[] ERRORS = {"Error reading file: ",                                 //0
+                                                "File skipped: experiment did not finish normally.",    //1
+                                                "Failed to produce output file.",                       //2*
+                                                "Failed to log properly.",                              //3*
+                                                "File skipped: file is not a .csv.",                    //4
+                                                "File skipped: number of lines is too long! [",         //5
+                                                "Error: File was corrupted at line ",                   //6
+                                                "Error: There is already a",                            //7*
+                                                "Coding terminated unexpectedly: \n\n",                 //8**
+                                                "File skipped: file is probably not a raw data file."}; //9
         private static final String STARTING_MESSAGE = "Initiating!";
         private static final String PADDING = "****";
 	private static ArrayList<String> LOGS;
+        private static String EXIT_MESSAGE;
         
         //Timing
         private static long programStartTime;
@@ -125,9 +127,9 @@ public class ToneMonitoringScorer {
             
             //Print reuslts
             if (!printResults(unsortedResults)) { 
-                log("\n" + ERRORS[8]);
+                log("\n" + ERRORS[8] + EXIT_MESSAGE);
                     //Pop-up error
-                    JOptionPane.showMessageDialog(null, ERRORS[8]);
+                    JOptionPane.showMessageDialog(null, ERRORS[8] + EXIT_MESSAGE);
             }
         }
 
@@ -159,7 +161,7 @@ public class ToneMonitoringScorer {
             try {
                 File f = new File("[OUTPUT] " + sdf.format(date) + ".csv");
                 if(f.exists()) {
-                    log(ERRORS[7] + "n output file. Modify the old file and try again.");
+                    EXIT_MESSAGE = ERRORS[7] + "n output file. Modify the old file and try again.";
                     return false;
                 }
                 
@@ -178,8 +180,9 @@ public class ToneMonitoringScorer {
             } catch (IOException ex) {
                 //Log failure
                 ex.printStackTrace();
-                log(ERRORS[2]);
+                EXIT_MESSAGE = ERRORS[2];
                 log("\n");
+                return false;
             }
             
             //Manual logging of results
@@ -228,7 +231,9 @@ public class ToneMonitoringScorer {
                 } catch (IOException ex) {
                     //Log failure
                     ex.printStackTrace();
-                    log(ERRORS[3]);
+                    EXIT_MESSAGE = ERRORS[2];
+                    log("\n");
+                    return false;
                 }
             }
             
@@ -301,13 +306,25 @@ public class ToneMonitoringScorer {
                         for (String str : lines) {
                             if (!str.equals("")) {
                                 //log("Trying to add [" + (line - (HEADER_LINES + 1) ) + ", " + j + "]: " + str);
+                                //Reached end of space
+                                if(line - (HEADER_LINES + 1) >= NUM_TRIALS) continue; 
                                 rawData[line - (HEADER_LINES + 1)][j] = str;
                                 
                                 //Catch corrupt files
-                                if((j == 1 && !str.contains("no response") && (Integer.parseInt(str) < 0)) || (j == 3 && !str.contains("NA") && Long.parseLong(str) < 0)) {
-                                    log("\t" + ERRORS[6] + line + ".");
-                                    //Failure to parse
-                                    return false;
+                                boolean notAString = !str.equals("no response") && !str.equals("NA");
+                                
+                                //Remove negative files                                
+                                if(j == 1 && notAString && REMOVE_NEGATIVE_RT) {
+                                   // if (Integer.parseInt(str) < 0)
+                                    log("\t" + ERRORS[6] + line + ": " + str);    
+                                    //return false;
+                                }
+                                if(j == 3 && notAString) {
+                                    if(Integer.parseInt(str) < 0) { 
+                                        log("\t" + ERRORS[6] + line + ": " + str );
+                                        //Failure to parse
+                                        return false;
+                                    }
                                 }   
                                 j++;
                             }

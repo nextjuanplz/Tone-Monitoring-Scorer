@@ -39,6 +39,9 @@ import static ToneMonitoringScorer.ToneMonitoringScorer.log;
 		private double dPrime;
                 private double accuracy;
                 private double averageRT;
+                
+                //Constants
+                private static final int TONE_ERROR = -1;
 
 		//Constructor
 		public ProcessedData(String[][] list) {  
@@ -46,8 +49,10 @@ import static ToneMonitoringScorer.ToneMonitoringScorer.log;
 			//Read all values
 			for (int i = 0; i < list.length; i++) {
                                 //log("Trying to record: " + list[i][0]);
+                                if(list[i][0].equals("NA") || list[i][0].equals("no response")) continue;
 				this.trialNumber[i] = Integer.parseInt(list[i][0]);
 				this.reactionTime[i] = list[i][1];
+                                if(list[i][2].equals("NA") || list[i][2].equals("no response")) continue;
 				this.tonePlayed[i] = Integer.parseInt(list[i][2]);
 				this.response[i] = list[i][3];
 			}
@@ -75,13 +80,15 @@ import static ToneMonitoringScorer.ToneMonitoringScorer.log;
                         double instances = 0;
                         for (String str : reactionTime) {
                             //Do not count non-responses
-                            if (str.contains("no response")) continue;
+                            if (str == null || str.contains("no response") || str.contains("NA")) continue;
                             
-                            //Add times from string                           
-                            sumTime += Double.parseDouble(str);
-
-                            //Count as instance of response
-                            instances++;
+                            //Add times from string   
+                            double currTime = Double.parseDouble(str);
+                            if(currTime >= 0.0) { 
+                                sumTime += currTime;
+                                //Count as instance of response
+                                instances++;
+                            }
                         }
 
 			//Update average RT
@@ -97,6 +104,9 @@ import static ToneMonitoringScorer.ToneMonitoringScorer.log;
                                 //Save current tone
                                 int currentTone = tonePlayed[i] - 1;
                             
+                                //Skip errors for now
+                                if (currentTone == TONE_ERROR) continue;
+                                
 				//Increment frequency of tone played
 				toneFrequency[currentTone]++;
 
