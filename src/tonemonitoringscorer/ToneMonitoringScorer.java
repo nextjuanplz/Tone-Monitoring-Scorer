@@ -195,6 +195,13 @@ public class ToneMonitoringScorer {
             
             //Output log
             long programEndTime = System.currentTimeMillis();
+
+            //Print missing files
+            String str = "Did not process the following files:\n";
+            for (int i = 0; i < missingFiles.size(); i++)
+                str = str + missingFiles.get(i) + "\n";
+            JOptionPane.showMessageDialog(null, str);   
+
             if(LOGGING) {
                 try {                    
                     log(PADDING + "PREPARING LOG FILE [Time elapsed: " + (programEndTime - programStartTime) + " ms]" + PADDING);
